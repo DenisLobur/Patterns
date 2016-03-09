@@ -1,4 +1,4 @@
-package observer;
+package observer.observer;
 
 /**
  * Created by denis on 3/9/16.

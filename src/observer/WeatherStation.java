@@ -1,5 +1,9 @@
 package observer;
 
+import observer.observer.CurrentConditionDisplay;
+import observer.observer.ForecastDisplay;
+import observer.subject.WeatherData;
+
 /**
  * Created by denis on 3/9/16.
  */
@@ -8,6 +12,9 @@ public class WeatherStation {
         WeatherData weatherData = new WeatherData();
         CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay(weatherData);
         weatherData.setMeasurements(10, 20, 30);
-        weatherData.setMeasurements(20, 210, 40);
+
+        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+        weatherData.setMeasurements(5, 40, 800);
+        weatherData.setMeasurements(50, 400, 700);
     }
 }

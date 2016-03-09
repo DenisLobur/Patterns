@@ -1,4 +1,7 @@
-package observer;
+package observer.observer;
+
+import observer.DisplayElement;
+import observer.subject.Subject;
 
 /**
  * Created by denis on 3/9/16.

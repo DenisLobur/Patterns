@@ -1,4 +1,6 @@
-package observer;
+package observer.subject;
+
+import observer.observer.Observer;
 
 /**
  * Created by denis on 3/9/16.
